@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		517BCB6A1D6EC1120006F6B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517BCB691D6EC1120006F6B3 /* main.m */; };
+		517BCB6D1D6EC1120006F6B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 517BCB6C1D6EC1120006F6B3 /* AppDelegate.m */; };
+		517BCB701D6EC1120006F6B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517BCB6F1D6EC1120006F6B3 /* ViewController.m */; };
+		517BCB731D6EC1120006F6B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517BCB711D6EC1120006F6B3 /* Main.storyboard */; };
+		517BCB751D6EC1120006F6B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517BCB741D6EC1120006F6B3 /* Assets.xcassets */; };
+		517BCB781D6EC1120006F6B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517BCB761D6EC1120006F6B3 /* LaunchScreen.storyboard */; };
+		517BCB811D6EC12E0006F6B3 /* WZZSpringLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 517BCB801D6EC12E0006F6B3 /* WZZSpringLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		517BCB651D6EC1120006F6B3 /* WZZSpringTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZZSpringTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		517BCB691D6EC1120006F6B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		517BCB6B1D6EC1120006F6B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		517BCB6C1D6EC1120006F6B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		517BCB6E1D6EC1120006F6B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		517BCB6F1D6EC1120006F6B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		517BCB721D6EC1120006F6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		517BCB741D6EC1120006F6B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		517BCB771D6EC1120006F6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		517BCB791D6EC1120006F6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517BCB7F1D6EC12E0006F6B3 /* WZZSpringLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZSpringLayout.h; sourceTree = "<group>"; };
+		517BCB801D6EC12E0006F6B3 /* WZZSpringLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZSpringLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		517BCB621D6EC1120006F6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		517BCB5C1D6EC1120006F6B3 = {
+			isa = PBXGroup;
+			children = (
+				517BCB671D6EC1120006F6B3 /* WZZSpringTable */,
+				517BCB661D6EC1120006F6B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		517BCB661D6EC1120006F6B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				517BCB651D6EC1120006F6B3 /* WZZSpringTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		517BCB671D6EC1120006F6B3 /* WZZSpringTable */ = {
+			isa = PBXGroup;
+			children = (
+				517BCB6B1D6EC1120006F6B3 /* AppDelegate.h */,
+				517BCB6C1D6EC1120006F6B3 /* AppDelegate.m */,
+				517BCB6E1D6EC1120006F6B3 /* ViewController.h */,
+				517BCB6F1D6EC1120006F6B3 /* ViewController.m */,
+				517BCB7F1D6EC12E0006F6B3 /* WZZSpringLayout.h */,
+				517BCB801D6EC12E0006F6B3 /* WZZSpringLayout.m */,
+				517BCB711D6EC1120006F6B3 /* Main.storyboard */,
+				517BCB741D6EC1120006F6B3 /* Assets.xcassets */,
+				517BCB761D6EC1120006F6B3 /* LaunchScreen.storyboard */,
+				517BCB791D6EC1120006F6B3 /* Info.plist */,
+				517BCB681D6EC1120006F6B3 /* Supporting Files */,
+			);
+			path = WZZSpringTable;
+			sourceTree = "<group>";
+		};
+		517BCB681D6EC1120006F6B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				517BCB691D6EC1120006F6B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		517BCB641D6EC1120006F6B3 /* WZZSpringTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517BCB7C1D6EC1120006F6B3 /* Build configuration list for PBXNativeTarget "WZZSpringTable" */;
+			buildPhases = (
+				517BCB611D6EC1120006F6B3 /* Sources */,
+				517BCB621D6EC1120006F6B3 /* Frameworks */,
+				517BCB631D6EC1120006F6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZZSpringTable;
+			productName = WZZSpringTable;
+			productReference = 517BCB651D6EC1120006F6B3 /* WZZSpringTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		517BCB5D1D6EC1120006F6B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wyzc;
+				TargetAttributes = {
+					517BCB641D6EC1120006F6B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 52BPVBHBSC;
+					};
+				};
+			};
+			buildConfigurationList = 517BCB601D6EC1120006F6B3 /* Build configuration list for PBXProject "WZZSpringTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 517BCB5C1D6EC1120006F6B3;
+			productRefGroup = 517BCB661D6EC1120006F6B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				517BCB641D6EC1120006F6B3 /* WZZSpringTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		517BCB631D6EC1120006F6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517BCB781D6EC1120006F6B3 /* LaunchScreen.storyboard in Resources */,
+				517BCB751D6EC1120006F6B3 /* Assets.xcassets in Resources */,
+				517BCB731D6EC1120006F6B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		517BCB611D6EC1120006F6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517BCB811D6EC12E0006F6B3 /* WZZSpringLayout.m in Sources */,
+				517BCB701D6EC1120006F6B3 /* ViewController.m in Sources */,
+				517BCB6D1D6EC1120006F6B3 /* AppDelegate.m in Sources */,
+				517BCB6A1D6EC1120006F6B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		517BCB711D6EC1120006F6B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517BCB721D6EC1120006F6B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		517BCB761D6EC1120006F6B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517BCB771D6EC1120006F6B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		517BCB7A1D6EC1120006F6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		517BCB7B1D6EC1120006F6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		517BCB7D1D6EC1120006F6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZZSpringTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyzc.WZZSpringTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		517BCB7E1D6EC1120006F6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZZSpringTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyzc.WZZSpringTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		517BCB601D6EC1120006F6B3 /* Build configuration list for PBXProject "WZZSpringTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517BCB7A1D6EC1120006F6B3 /* Debug */,
+				517BCB7B1D6EC1120006F6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517BCB7C1D6EC1120006F6B3 /* Build configuration list for PBXNativeTarget "WZZSpringTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517BCB7D1D6EC1120006F6B3 /* Debug */,
+				517BCB7E1D6EC1120006F6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 517BCB5D1D6EC1120006F6B3 /* Project object */;
+}
